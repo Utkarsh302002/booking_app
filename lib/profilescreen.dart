@@ -73,7 +73,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text("User's Information", style: Theme.of(context).textTheme.headline6),
+           Text(
+  "User's Information",
+  style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+),
             SizedBox(height: 10),
             Card(
               elevation: 8,
